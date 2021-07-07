@@ -1,0 +1,59 @@
+/* Scheme css here */
+
+.scheme-hero{
+    background-image: url(../images/netmatters-secures-grant-hDlj.jpg);
+    @media #{$tablet-device}{
+        height: 400px;
+    }
+}
+.scheme-hero-block{
+    padding: 120px 30px 0px;
+    text-align: left;
+    & h1{
+        font-size: 42px;
+        @media #{$small-mobile2}{
+            font-size: 32px;
+        }
+    }
+}
+.scheme-container{
+    padding:30px;
+    @media #{$small-mobile2}{
+        padding: 20px 15px;
+    }
+    text-align: left;
+    & h1{
+        font-size: 42px;
+    }
+}
+.scheme-item{
+    padding: 15px 0px;
+    & h2{
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+    & h3{
+        font-weight: 500;
+    }
+    & a{
+        color: $secondary_color;
+        &:hover{
+            color: $black;
+        }
+    }
+    & ul{
+        margin: 0px;
+        padding: 0px;
+        list-style-position: inside;
+    }
+}
+
+
+/* Scheme css end */
+
+
+
+
+
+
+

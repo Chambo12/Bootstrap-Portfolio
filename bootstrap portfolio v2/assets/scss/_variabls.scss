@@ -1,0 +1,73 @@
+// Font Family
+$site-font:sans-serif;
+
+
+// Colors ---------------
+
+$fonts_color:#333;
+$fonts_color2:#656565;
+
+$secondary_color: #50b0c9;
+
+$button_color1:#7e0e7e;
+$button_color2:#bd1ebd;
+
+$button_color3:#ac0606;
+$button_color4:#e60a0a;
+
+$button_color5:#10790d;
+$button_color6:#22b81d;
+
+
+$white: #ffffff;
+$black: #000000;
+
+// Light Color
+$light_grey: #f6f6f6;
+$grey_color: #f0f0f0;
+$dark_grey:#e9e9e9;
+
+// Body Color
+$body-color: #fff;
+
+$light-border: #676767;
+$dark-border: #e2e2e2;
+
+// Responsive Variables
+$extraBig-device : 'only screen and (min-w idth: 1600px)';
+$laptop-device : 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$desktop-device : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$tablet-device: 'only screen and (min-width: 100px) and (max-width: 991px)';
+$large-mobile: 'only screen and (min-width: 100px) and (max-width: 769px)';
+$medium-mobile: 'only screen and (min-width: 100px) and (max-width: 640px)';
+$small-mobile: 'only screen and (min-width: 100px) and (max-width: 580px)';
+$small-mobile2: 'only screen and (min-width: 100px) and (max-width: 480px)';
+$small-mobile3: 'only screen and (min-width: 100px) and (max-width: 380px)';
+$small-mobile4: 'only screen and (min-width: 100px) and (max-width: 320px)';
+
+/* transition */
+@mixin transition($property){
+    -webkit-transition: $property;
+        transition: $property;
+}
+
+/* flex */
+@mixin flex($property){
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center
+}
+
+/* transform */
+@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+/* opacity */
+@mixin opacity($opacity){
+    opacity: $opacity;
+    -ms-filter: $opacity;
+}
